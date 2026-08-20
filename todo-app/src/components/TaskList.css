@@ -1,0 +1,43 @@
+.task-list {
+  width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+.task-list h2 {
+  text-align: center;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.task input {
+  margin-right: 10px;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: #c0392b;
+}
